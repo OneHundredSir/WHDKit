@@ -6,10 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C0895F2C1D8EC0C40089E0D9 /* hundredSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C0895F2D1D8EC0C40089E0D9 /* Build configuration list for PBXAggregateTarget "hundredSDK" */;
+			buildPhases = (
+				C0895F301D8EC0D00089E0D9 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = hundredSDK;
+			productName = hundredSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		C0895F021D8EBF9F0089E0D9 /* WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F011D8EBF9F0089E0D9 /* WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0895F091D8EBF9F0089E0D9 /* WHDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0895EFE1D8EBF9F0089E0D9 /* WHDKit.framework */; };
 		C0895F0E1D8EBF9F0089E0D9 /* WHDKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F0D1D8EBF9F0089E0D9 /* WHDKitTests.m */; };
+		C0895F1A1D8EBFBD0089E0D9 /* UIColor+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F181D8EBFBD0089E0D9 /* UIColor+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0895F1B1D8EBFBD0089E0D9 /* UIColor+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F191D8EBFBD0089E0D9 /* UIColor+WHDKit.m */; };
+		C0895F1E1D8EBFD30089E0D9 /* NSArray+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F1C1D8EBFD30089E0D9 /* NSArray+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0895F1F1D8EBFD30089E0D9 /* NSArray+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F1D1D8EBFD30089E0D9 /* NSArray+WHDKit.m */; };
+		C0895F221D8EBFE20089E0D9 /* NSString+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F201D8EBFE20089E0D9 /* NSString+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0895F231D8EBFE20089E0D9 /* NSString+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F211D8EBFE20089E0D9 /* NSString+WHDKit.m */; };
+		C0895F261D8EBFF40089E0D9 /* NSDictionary+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F241D8EBFF40089E0D9 /* NSDictionary+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0895F271D8EBFF40089E0D9 /* NSDictionary+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F251D8EBFF40089E0D9 /* NSDictionary+WHDKit.m */; };
+		C0895F2A1D8EC0030089E0D9 /* NSObject+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F281D8EC0030089E0D9 /* NSObject+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0895F2B1D8EC0030089E0D9 /* NSObject+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F291D8EC0030089E0D9 /* NSObject+WHDKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +53,16 @@
 		C0895F081D8EBF9F0089E0D9 /* WHDKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHDKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0895F0D1D8EBF9F0089E0D9 /* WHDKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHDKitTests.m; sourceTree = "<group>"; };
 		C0895F0F1D8EBF9F0089E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0895F181D8EBFBD0089E0D9 /* UIColor+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHDKit.h"; sourceTree = "<group>"; };
+		C0895F191D8EBFBD0089E0D9 /* UIColor+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WHDKit.m"; sourceTree = "<group>"; };
+		C0895F1C1D8EBFD30089E0D9 /* NSArray+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WHDKit.h"; sourceTree = "<group>"; };
+		C0895F1D1D8EBFD30089E0D9 /* NSArray+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WHDKit.m"; sourceTree = "<group>"; };
+		C0895F201D8EBFE20089E0D9 /* NSString+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WHDKit.h"; sourceTree = "<group>"; };
+		C0895F211D8EBFE20089E0D9 /* NSString+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WHDKit.m"; sourceTree = "<group>"; };
+		C0895F241D8EBFF40089E0D9 /* NSDictionary+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WHDKit.h"; sourceTree = "<group>"; };
+		C0895F251D8EBFF40089E0D9 /* NSDictionary+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WHDKit.m"; sourceTree = "<group>"; };
+		C0895F281D8EC0030089E0D9 /* NSObject+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHDKit.h"; sourceTree = "<group>"; };
+		C0895F291D8EC0030089E0D9 /* NSObject+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHDKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +106,16 @@
 			isa = PBXGroup;
 			children = (
 				C0895F011D8EBF9F0089E0D9 /* WHDKit.h */,
+				C0895F281D8EC0030089E0D9 /* NSObject+WHDKit.h */,
+				C0895F291D8EC0030089E0D9 /* NSObject+WHDKit.m */,
+				C0895F241D8EBFF40089E0D9 /* NSDictionary+WHDKit.h */,
+				C0895F251D8EBFF40089E0D9 /* NSDictionary+WHDKit.m */,
+				C0895F201D8EBFE20089E0D9 /* NSString+WHDKit.h */,
+				C0895F211D8EBFE20089E0D9 /* NSString+WHDKit.m */,
+				C0895F1C1D8EBFD30089E0D9 /* NSArray+WHDKit.h */,
+				C0895F1D1D8EBFD30089E0D9 /* NSArray+WHDKit.m */,
+				C0895F181D8EBFBD0089E0D9 /* UIColor+WHDKit.h */,
+				C0895F191D8EBFBD0089E0D9 /* UIColor+WHDKit.m */,
 				C0895F031D8EBF9F0089E0D9 /* Info.plist */,
 			);
 			path = WHDKit;
@@ -94,6 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0895F021D8EBF9F0089E0D9 /* WHDKit.h in Headers */,
+				C0895F221D8EBFE20089E0D9 /* NSString+WHDKit.h in Headers */,
+				C0895F1A1D8EBFBD0089E0D9 /* UIColor+WHDKit.h in Headers */,
+				C0895F261D8EBFF40089E0D9 /* NSDictionary+WHDKit.h in Headers */,
+				C0895F1E1D8EBFD30089E0D9 /* NSArray+WHDKit.h in Headers */,
+				C0895F2A1D8EC0030089E0D9 /* NSObject+WHDKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +200,9 @@
 					C0895F071D8EBF9F0089E0D9 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
+					C0895F2C1D8EC0C40089E0D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = C0895EF81D8EBF9F0089E0D9 /* Build configuration list for PBXProject "WHDKit" */;
@@ -167,6 +219,7 @@
 			targets = (
 				C0895EFD1D8EBF9F0089E0D9 /* WHDKit */,
 				C0895F071D8EBF9F0089E0D9 /* WHDKitTests */,
+				C0895F2C1D8EC0C40089E0D9 /* hundredSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -188,11 +241,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C0895F301D8EC0D00089E0D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=${PROJECT_NAME}\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0895EF91D8EBF9F0089E0D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0895F1B1D8EBFBD0089E0D9 /* UIColor+WHDKit.m in Sources */,
+				C0895F271D8EBFF40089E0D9 /* NSDictionary+WHDKit.m in Sources */,
+				C0895F231D8EBFE20089E0D9 /* NSString+WHDKit.m in Sources */,
+				C0895F1F1D8EBFD30089E0D9 /* NSArray+WHDKit.m in Sources */,
+				C0895F2B1D8EC0030089E0D9 /* NSObject+WHDKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +431,20 @@
 			};
 			name = Release;
 		};
+		C0895F2E1D8EC0C40089E0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0895F2F1D8EC0C40089E0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -382,6 +470,14 @@
 			buildConfigurations = (
 				C0895F161D8EBF9F0089E0D9 /* Debug */,
 				C0895F171D8EBF9F0089E0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0895F2D1D8EC0C40089E0D9 /* Build configuration list for PBXAggregateTarget "hundredSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0895F2E1D8EC0C40089E0D9 /* Debug */,
+				C0895F2F1D8EC0C40089E0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
