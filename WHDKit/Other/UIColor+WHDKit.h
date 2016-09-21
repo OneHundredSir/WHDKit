@@ -10,4 +10,7 @@
 
 @interface UIColor (WHDKit)
 
+-(UIColor *)randonColor;
+
+
 @end

@@ -21,19 +21,19 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		8EFFC8841D9197CB004FF5E8 /* NSArray+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFFC8791D9197CB004FF5E8 /* NSArray+WHDKit.h */; };
+		8EFFC8851D9197CB004FF5E8 /* NSArray+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC87A1D9197CB004FF5E8 /* NSArray+WHDKit.m */; };
+		8EFFC8861D9197CB004FF5E8 /* NSDictionary+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFFC87B1D9197CB004FF5E8 /* NSDictionary+WHDKit.h */; };
+		8EFFC8871D9197CB004FF5E8 /* NSDictionary+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC87C1D9197CB004FF5E8 /* NSDictionary+WHDKit.m */; };
+		8EFFC8881D9197CB004FF5E8 /* NSObject+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFFC87D1D9197CB004FF5E8 /* NSObject+WHDKit.h */; };
+		8EFFC8891D9197CB004FF5E8 /* NSObject+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC87E1D9197CB004FF5E8 /* NSObject+WHDKit.m */; };
+		8EFFC88A1D9197CB004FF5E8 /* NSString+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFFC87F1D9197CB004FF5E8 /* NSString+WHDKit.h */; };
+		8EFFC88B1D9197CB004FF5E8 /* NSString+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC8801D9197CB004FF5E8 /* NSString+WHDKit.m */; };
+		8EFFC88E1D9197EB004FF5E8 /* UIColor+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFFC88C1D9197EB004FF5E8 /* UIColor+WHDKit.h */; };
+		8EFFC88F1D9197EB004FF5E8 /* UIColor+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC88D1D9197EB004FF5E8 /* UIColor+WHDKit.m */; };
 		C0895F021D8EBF9F0089E0D9 /* WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F011D8EBF9F0089E0D9 /* WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0895F091D8EBF9F0089E0D9 /* WHDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0895EFE1D8EBF9F0089E0D9 /* WHDKit.framework */; };
 		C0895F0E1D8EBF9F0089E0D9 /* WHDKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F0D1D8EBF9F0089E0D9 /* WHDKitTests.m */; };
-		C0895F1A1D8EBFBD0089E0D9 /* UIColor+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F181D8EBFBD0089E0D9 /* UIColor+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0895F1B1D8EBFBD0089E0D9 /* UIColor+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F191D8EBFBD0089E0D9 /* UIColor+WHDKit.m */; };
-		C0895F1E1D8EBFD30089E0D9 /* NSArray+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F1C1D8EBFD30089E0D9 /* NSArray+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0895F1F1D8EBFD30089E0D9 /* NSArray+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F1D1D8EBFD30089E0D9 /* NSArray+WHDKit.m */; };
-		C0895F221D8EBFE20089E0D9 /* NSString+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F201D8EBFE20089E0D9 /* NSString+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0895F231D8EBFE20089E0D9 /* NSString+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F211D8EBFE20089E0D9 /* NSString+WHDKit.m */; };
-		C0895F261D8EBFF40089E0D9 /* NSDictionary+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F241D8EBFF40089E0D9 /* NSDictionary+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0895F271D8EBFF40089E0D9 /* NSDictionary+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F251D8EBFF40089E0D9 /* NSDictionary+WHDKit.m */; };
-		C0895F2A1D8EC0030089E0D9 /* NSObject+WHDKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0895F281D8EC0030089E0D9 /* NSObject+WHDKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0895F2B1D8EC0030089E0D9 /* NSObject+WHDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0895F291D8EC0030089E0D9 /* NSObject+WHDKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,22 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EFFC8791D9197CB004FF5E8 /* NSArray+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WHDKit.h"; sourceTree = "<group>"; };
+		8EFFC87A1D9197CB004FF5E8 /* NSArray+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WHDKit.m"; sourceTree = "<group>"; };
+		8EFFC87B1D9197CB004FF5E8 /* NSDictionary+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WHDKit.h"; sourceTree = "<group>"; };
+		8EFFC87C1D9197CB004FF5E8 /* NSDictionary+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WHDKit.m"; sourceTree = "<group>"; };
+		8EFFC87D1D9197CB004FF5E8 /* NSObject+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHDKit.h"; sourceTree = "<group>"; };
+		8EFFC87E1D9197CB004FF5E8 /* NSObject+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHDKit.m"; sourceTree = "<group>"; };
+		8EFFC87F1D9197CB004FF5E8 /* NSString+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WHDKit.h"; sourceTree = "<group>"; };
+		8EFFC8801D9197CB004FF5E8 /* NSString+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WHDKit.m"; sourceTree = "<group>"; };
+		8EFFC88C1D9197EB004FF5E8 /* UIColor+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHDKit.h"; sourceTree = "<group>"; };
+		8EFFC88D1D9197EB004FF5E8 /* UIColor+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WHDKit.m"; sourceTree = "<group>"; };
 		C0895EFE1D8EBF9F0089E0D9 /* WHDKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WHDKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0895F011D8EBF9F0089E0D9 /* WHDKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHDKit.h; sourceTree = "<group>"; };
 		C0895F031D8EBF9F0089E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0895F081D8EBF9F0089E0D9 /* WHDKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHDKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0895F0D1D8EBF9F0089E0D9 /* WHDKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHDKitTests.m; sourceTree = "<group>"; };
 		C0895F0F1D8EBF9F0089E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0895F181D8EBFBD0089E0D9 /* UIColor+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHDKit.h"; sourceTree = "<group>"; };
-		C0895F191D8EBFBD0089E0D9 /* UIColor+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WHDKit.m"; sourceTree = "<group>"; };
-		C0895F1C1D8EBFD30089E0D9 /* NSArray+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WHDKit.h"; sourceTree = "<group>"; };
-		C0895F1D1D8EBFD30089E0D9 /* NSArray+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WHDKit.m"; sourceTree = "<group>"; };
-		C0895F201D8EBFE20089E0D9 /* NSString+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WHDKit.h"; sourceTree = "<group>"; };
-		C0895F211D8EBFE20089E0D9 /* NSString+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WHDKit.m"; sourceTree = "<group>"; };
-		C0895F241D8EBFF40089E0D9 /* NSDictionary+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WHDKit.h"; sourceTree = "<group>"; };
-		C0895F251D8EBFF40089E0D9 /* NSDictionary+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WHDKit.m"; sourceTree = "<group>"; };
-		C0895F281D8EC0030089E0D9 /* NSObject+WHDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHDKit.h"; sourceTree = "<group>"; };
-		C0895F291D8EC0030089E0D9 /* NSObject+WHDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHDKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EFFC8781D9197CB004FF5E8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8EFFC88C1D9197EB004FF5E8 /* UIColor+WHDKit.h */,
+				8EFFC88D1D9197EB004FF5E8 /* UIColor+WHDKit.m */,
+				8EFFC8791D9197CB004FF5E8 /* NSArray+WHDKit.h */,
+				8EFFC87A1D9197CB004FF5E8 /* NSArray+WHDKit.m */,
+				8EFFC87B1D9197CB004FF5E8 /* NSDictionary+WHDKit.h */,
+				8EFFC87C1D9197CB004FF5E8 /* NSDictionary+WHDKit.m */,
+				8EFFC87D1D9197CB004FF5E8 /* NSObject+WHDKit.h */,
+				8EFFC87E1D9197CB004FF5E8 /* NSObject+WHDKit.m */,
+				8EFFC87F1D9197CB004FF5E8 /* NSString+WHDKit.h */,
+				8EFFC8801D9197CB004FF5E8 /* NSString+WHDKit.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8EFFC8811D9197CB004FF5E8 /* TOOLS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TOOLS;
+			sourceTree = "<group>";
+		};
+		8EFFC8821D9197CB004FF5E8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8EFFC8831D9197CB004FF5E8 /* WEB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WEB;
+			sourceTree = "<group>";
+		};
 		C0895EF41D8EBF9F0089E0D9 = {
 			isa = PBXGroup;
 			children = (
@@ -105,17 +143,11 @@
 		C0895F001D8EBF9F0089E0D9 /* WHDKit */ = {
 			isa = PBXGroup;
 			children = (
+				8EFFC8781D9197CB004FF5E8 /* Other */,
+				8EFFC8811D9197CB004FF5E8 /* TOOLS */,
+				8EFFC8821D9197CB004FF5E8 /* UI */,
+				8EFFC8831D9197CB004FF5E8 /* WEB */,
 				C0895F011D8EBF9F0089E0D9 /* WHDKit.h */,
-				C0895F281D8EC0030089E0D9 /* NSObject+WHDKit.h */,
-				C0895F291D8EC0030089E0D9 /* NSObject+WHDKit.m */,
-				C0895F241D8EBFF40089E0D9 /* NSDictionary+WHDKit.h */,
-				C0895F251D8EBFF40089E0D9 /* NSDictionary+WHDKit.m */,
-				C0895F201D8EBFE20089E0D9 /* NSString+WHDKit.h */,
-				C0895F211D8EBFE20089E0D9 /* NSString+WHDKit.m */,
-				C0895F1C1D8EBFD30089E0D9 /* NSArray+WHDKit.h */,
-				C0895F1D1D8EBFD30089E0D9 /* NSArray+WHDKit.m */,
-				C0895F181D8EBFBD0089E0D9 /* UIColor+WHDKit.h */,
-				C0895F191D8EBFBD0089E0D9 /* UIColor+WHDKit.m */,
 				C0895F031D8EBF9F0089E0D9 /* Info.plist */,
 			);
 			path = WHDKit;
@@ -137,12 +169,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFFC8861D9197CB004FF5E8 /* NSDictionary+WHDKit.h in Headers */,
 				C0895F021D8EBF9F0089E0D9 /* WHDKit.h in Headers */,
-				C0895F221D8EBFE20089E0D9 /* NSString+WHDKit.h in Headers */,
-				C0895F1A1D8EBFBD0089E0D9 /* UIColor+WHDKit.h in Headers */,
-				C0895F261D8EBFF40089E0D9 /* NSDictionary+WHDKit.h in Headers */,
-				C0895F1E1D8EBFD30089E0D9 /* NSArray+WHDKit.h in Headers */,
-				C0895F2A1D8EC0030089E0D9 /* NSObject+WHDKit.h in Headers */,
+				8EFFC88A1D9197CB004FF5E8 /* NSString+WHDKit.h in Headers */,
+				8EFFC8841D9197CB004FF5E8 /* NSArray+WHDKit.h in Headers */,
+				8EFFC8881D9197CB004FF5E8 /* NSObject+WHDKit.h in Headers */,
+				8EFFC88E1D9197EB004FF5E8 /* UIColor+WHDKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,11 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0895F1B1D8EBFBD0089E0D9 /* UIColor+WHDKit.m in Sources */,
-				C0895F271D8EBFF40089E0D9 /* NSDictionary+WHDKit.m in Sources */,
-				C0895F231D8EBFE20089E0D9 /* NSString+WHDKit.m in Sources */,
-				C0895F1F1D8EBFD30089E0D9 /* NSArray+WHDKit.m in Sources */,
-				C0895F2B1D8EC0030089E0D9 /* NSObject+WHDKit.m in Sources */,
+				8EFFC88F1D9197EB004FF5E8 /* UIColor+WHDKit.m in Sources */,
+				8EFFC88B1D9197CB004FF5E8 /* NSString+WHDKit.m in Sources */,
+				8EFFC8891D9197CB004FF5E8 /* NSObject+WHDKit.m in Sources */,
+				8EFFC8851D9197CB004FF5E8 /* NSArray+WHDKit.m in Sources */,
+				8EFFC8871D9197CB004FF5E8 /* NSDictionary+WHDKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +496,7 @@
 				C0895F141D8EBF9F0089E0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0895F151D8EBF9F0089E0D9 /* Build configuration list for PBXNativeTarget "WHDKitTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +505,7 @@
 				C0895F171D8EBF9F0089E0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0895F2D1D8EC0C40089E0D9 /* Build configuration list for PBXAggregateTarget "hundredSDK" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +514,7 @@
 				C0895F2F1D8EC0C40089E0D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
