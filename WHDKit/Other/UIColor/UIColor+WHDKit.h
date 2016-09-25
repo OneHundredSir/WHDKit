@@ -10,7 +10,9 @@
 
 @interface UIColor (WHDKit)
 
--(UIColor *)randonColor;
++(UIColor *)randonColor;
 
+
++ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
 
 @end
